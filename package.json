@@ -1,22 +1,23 @@
 {
-  "name": "minesweeper",
+  "name": "starter-react-app",
   "version": "1.0.0",
-  "description": "A clone of the popular game minesweeper",
+  "description": "A starter React App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack --mode development --config webpack.config.js --watch",
     "start-dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atrome/minesweeper.git"
+    "url": "git+https://github.com/atrome/starter-react-app.git"
   },
   "author": "Alex Romanak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/atrome/minesweeper/issues"
+    "url": "https://github.com/atrome/starter-react-app/issues"
   },
-  "homepage": "https://github.com/atrome/minesweeper#readme",
+  "homepage": "https://github.com/atrome/starter-react-app#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
